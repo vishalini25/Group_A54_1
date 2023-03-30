@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Innovative Text Editor</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <div class="editor">
+      <div class="toolbar">
+        <button class="bold"><b>B</b></button>
+        <button class="italic"><i>I</i></button>
+        <button class="underline"><u>U</u></button>
+        <select class="font-family">
+          <option value="Arial">Arial</option>
+          <option value="Helvetica">Helvetica</option>
+          <option value="Times New Roman">Times New Roman</option>
+          <option value="Courier New">Courier New</option>
+        </select>
+        <select class="font-size">
+          <option value="12px">12px</option>
+          <option value="14px">14px</option>
+          <option value="16px">16px</option>
+          <option value="18px">18px</option>
+        </select>
+      </div>
+      <div contenteditable="true" class="editable" spellcheck="false"></div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
